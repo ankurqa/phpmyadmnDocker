@@ -1,0 +1,9 @@
+version: '2'
+services:
+  img:
+    image: ankurmangal/ubuntu_template:v2
+  webapp:
+    build: . 
+    ports:
+      - "1111:1111"
+    image: ankurmangal/ubuntu_template:v2
